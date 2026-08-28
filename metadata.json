@@ -1,0 +1,6 @@
+{
+  "name": "Sorteggio Interrogazioni Liceo",
+  "description": "App interattiva per docenti di liceo per l'estrazione casuale a rotazione completa degli studenti per classe, con gestione assenze, voti e grafica coinvolgente.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

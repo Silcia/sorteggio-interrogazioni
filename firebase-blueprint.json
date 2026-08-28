@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "classes": {
+      "title": "Classes",
+      "description": "School classes and student rosters for interrogation picker",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "subject": { "type": "string" },
+        "schoolYear": { "type": "string" },
+        "currentCycle": { "type": "number" },
+        "students": { "type": "array" },
+        "topicsList": { "type": "array" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "name", "subject", "schoolYear", "currentCycle", "students"]
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Teacher preferences and sound settings",
+      "type": "object",
+      "properties": {
+        "soundEnabled": { "type": "boolean" },
+        "confettiEnabled": { "type": "boolean" },
+        "animationSpeed": { "type": "string" },
+        "defaultTimerMinutes": { "type": "number" },
+        "gradeScale": { "type": "string" }
+      }
+    }
+  }
+}
